@@ -1,0 +1,32 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *after {
+	box-sizing: inherit;
+}
+body {
+	background: LightGray;
+	font-family: 'Hind Vadodara', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+div {
+	border: 1px solid Purple;
+}
+.content {
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+/*Nav Bar*/
+.top-navigation {
+	padding: 6em 0;
+	background-image: url('https://images.unsplash.com/photo-1414432667065-fbbcad756703?q=80&fm=jpg&s=bb8fea17d5a8498220eae3e9c962ed6c');
+	background-repeat: no-repeat;
+  	background-size: cover;
+	position: fixed;
+	width: 100%;
+}
+.top-navigation > .content {
+	padding: 0px 75px;
+	margin:  0 auto;
+}
