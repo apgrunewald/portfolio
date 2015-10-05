@@ -53,7 +53,7 @@ div {
 /*Introduction*/
 .introduction h1, .introduction h2 {
 	color: white;
-	font-weight: 300;
+	font-weight: 500;
 	max-width: 40rem;
 }
 .introduction h1 {
@@ -76,12 +76,36 @@ div {
 
 }
 .introduction {
-	background-image: url('../images/fieldpic.jpeg');
+	background-image: url('../images/field.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 34rem;
+	height: 29rem;
 	overflow: auto;  
+}
+/*About Me Page*/
+img {
+ margin: 8% auto;
+ right: 0px;
+ width: 31.3%;
+}
+.questions {
+	overflow: auto;  
+}
+.answer1, .answer2 {
+	width: 31.3%;
+	float: left;
+	margin: 8% auto;
+}
+.answer2 {
+	margin-right: 0%;
+}
+.answer1 {
+	margin-left: 3%;
+}
+.answer1 h3, .answer2 h3 {
+	font-family: 'Homemade Apple', cursive;
+	-webkit-font-smoothing: antialiased;
 }
 /*projects*/
 .projects {
