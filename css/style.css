@@ -9,12 +9,12 @@ body {
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
+
 div {
 	border: 1px solid Purple;
 }
 .content {
-	padding: 0px 15px;
-	margin: 0 auto;
+	overflow: auto;
 }
 
 /*Nav Bar*/
@@ -80,7 +80,7 @@ div {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 36rem;
+	height: 34rem;
 	overflow: auto;  
 }
 /*projects*/
@@ -99,39 +99,38 @@ div {
 	font-size: 3.125rem;
 	font-family: 'Homemade Apple', cursive;
 	-webkit-font-smoothing: antialiased;
-	text-align: left;
+	text-align: center;
 	margin-left: 2rem;
 }
 /*Footer*/
-.content-footer {
-	background-color: #fff;
-	position: fixed;
+.footer {
+	background: #fff;
 	width: 100%;
 }
-.content-footer > .content {
+.footer > .content {
 	padding: 0px 75px;
 	margin:  0 auto;
 }
-.content-footer .links {
-	float: right;
+.footer .links {
+	text-align: center;
 	color: #3E403E;
-	font-size: 1.04rem;
-	margin-bottom: 2rem;
+	font-size: 1rem;
+	margin-top: -1rem;
 }
-.content-footer .links li {
+.footer .links li {
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
-	margin-right: 2rem;
+	margin-right: 4rem;
 }
-.content-footer .links li:hover {
+.footer .links li:hover {
 	cursor: pointer;
 	color: #FFC43C;
 }
-.content-footer h1 {
+.footer h1 {
 	font-family: 'Homemade Apple', cursive;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
 	margin-left: auto;
-	font-size: 10px;
+	font-size: 20px;
 }
