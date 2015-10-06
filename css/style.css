@@ -62,15 +62,15 @@ div {
     font-family: 'Homemade Apple', cursive;
     -webkit-font-smoothing: antialiased;
     text-align: right;
-    margin-top: 35%;
-    margin-left: 21%;
+    margin-top: 25%;
+    margin-left: 29%;
     margin-right: auto;
 }
 .introduction h2 {
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	margin-top: -5rem;
-    margin-left: 20%;
+    margin-left: 26%;
     margin-right: auto;
     font-size: 2rem;
     text-align: center;
@@ -85,47 +85,43 @@ div {
 	overflow: auto;  
 }
 /*About Me Page*/
-img {
- margin: 8% auto;
- right: 0px;
- width: 31.3%;
+.about {
+	overflow: auto; 
 }
-.questions {
-	overflow: auto;  
-}
-.answer1, .answer2 {
+.answer1, .answer2, .answer3 {
 	width: 31.3%;
 	float: left;
-	margin: 8% auto;
+	margin: 10% auto;
 }
-.answer2 {
+.answer3 {
 	margin-right: 0%;
 }
 .answer1 {
 	margin-left: 3%;
 }
-.answer1 h3, .answer2 h3 {
+.answer1 h3, .answer2 h3, .answer3 h3 {
 	font-family: 'Homemade Apple', cursive;
 	-webkit-font-smoothing: antialiased;
 }
 /*projects*/
-.projects {
-	background-color: #fff;
-	overflow: hidden;
-	padding-bottom: 5rem;
+.projects > .content {
+	padding: 0px 75px;
+	margin:  0 auto;
 }
-.projects .content {
-	padding: none;
-	color: #1d1e21;
+.shots1, .shots2 {
+	width: 31.3%;
 	text-align: center;
+	margin: 10% auto;
 }
-.projects h1 {
-	margin-top: 1rem;
-	font-size: 3.125rem;
+.shots2 {
+	margin-right: 0%;
+}
+.shots1 {
+	margin-left: 3%;
+}
+.shots1 h3, .shots2 h3, .projects h2 {
 	font-family: 'Homemade Apple', cursive;
 	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	margin-left: 2rem;
 }
 /*Footer*/
 .footer {
