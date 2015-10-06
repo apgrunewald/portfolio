@@ -52,7 +52,7 @@ div {
 }
 /*Introduction*/
 .introduction h1, .introduction h2 {
-	color: white;
+	color: whitesmoke;
 	font-weight: 500;
 	max-width: 40rem;
 }
@@ -61,26 +61,27 @@ div {
     font-size: 3.125rem;
     font-family: 'Homemade Apple', cursive;
     -webkit-font-smoothing: antialiased;
-    text-align: center;
-    margin-left: auto;
+    text-align: right;
+    margin-top: 35%;
+    margin-left: 21%;
     margin-right: auto;
 }
 .introduction h2 {
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	margin-top: -3rem;
-    margin-left: auto;
+	margin-top: -5rem;
+    margin-left: 20%;
     margin-right: auto;
     font-size: 2rem;
     text-align: center;
 
 }
 .introduction {
-	background-image: url('../images/field.jpeg');
+	background-image: url('../images/springfence.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 29rem;
+	height: 33rem;
 	overflow: auto;  
 }
 /*About Me Page*/
