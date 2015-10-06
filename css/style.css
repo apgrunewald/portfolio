@@ -109,23 +109,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /*projects*/
-.projects > .content {
-	padding: 0px 75px;
-	margin:  0 auto;
+.projects {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.project .content {
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+.projects h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
 }
 .shots1, .shots2 {
-	width: 31.3%;
-	float: left;
-	text-align: center;
 	margin: 10% auto;
+	width: 49%;
+	display: inline-block;
 }
-.shots2 {
-	margin-right: 0%;
-}
-.shots1 {
-	margin-left: 3%;
-}
-
 /*Footer*/
 .footer {
 	background: #fff;
