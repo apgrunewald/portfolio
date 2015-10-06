@@ -15,8 +15,12 @@ div {
 }
 .content {
 	overflow: auto;
+	text-align: center;
 }
-
+h1, h2, h3, h4, h5 {
+	font-family: 'Homemade Apple', cursive;
+	-webkit-font-smoothing: antialiased;	
+}
 /*Nav Bar*/
 .top-navigation {
 	background-color: #fff;
@@ -85,13 +89,14 @@ div {
 	overflow: auto;  
 }
 /*About Me Page*/
-.about {
-	overflow: auto; 
+.about > .content {
+	padding: 0px 75px;
+	margin:  0 auto;
 }
 .answer1, .answer2, .answer3 {
 	width: 31.3%;
 	float: left;
-	margin: 10% auto;
+	margin: 4% auto;
 }
 .answer3 {
 	margin-right: 0%;
@@ -99,10 +104,10 @@ div {
 .answer1 {
 	margin-left: 3%;
 }
-.answer1 h3, .answer2 h3, .answer3 h3 {
-	font-family: 'Homemade Apple', cursive;
-	-webkit-font-smoothing: antialiased;
+.answer1, .answer2, .answer3 {
+	text-align: left;
 }
+
 /*projects*/
 .projects > .content {
 	padding: 0px 75px;
@@ -110,6 +115,7 @@ div {
 }
 .shots1, .shots2 {
 	width: 31.3%;
+	float: left;
 	text-align: center;
 	margin: 10% auto;
 }
@@ -119,10 +125,7 @@ div {
 .shots1 {
 	margin-left: 3%;
 }
-.shots1 h3, .shots2 h3, .projects h2 {
-	font-family: 'Homemade Apple', cursive;
-	-webkit-font-smoothing: antialiased;
-}
+
 /*Footer*/
 .footer {
 	background: #fff;
