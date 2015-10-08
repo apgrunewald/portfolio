@@ -5,7 +5,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background: LightGray;
+	background: #e7e3d8;
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -15,11 +15,22 @@ div {
 }
 .content {
 	overflow: auto;
-	text-align: center;
+	text-align: left;
+	margin-bottom: 5%;
+}
+.title {
+	margin-left: 2%;
+	margin-top: 10%;
 }
 h1, h2, h3, h4, h5 {
 	font-family: 'Homemade Apple', cursive;
-	-webkit-font-smoothing: antialiased;	
+	-webkit-font-smoothing: antialiased;
+	color: #7F7F6E;	
+}
+hr {
+	border: antiquewhite;
+	border-top: 6px solid #eaebec;
+	margin: 1.313rem 0;
 }
 /*Nav Bar*/
 .top-navigation {
@@ -67,14 +78,14 @@ h1, h2, h3, h4, h5 {
     -webkit-font-smoothing: antialiased;
     text-align: right;
     margin-top: 25%;
-    margin-left: 29%;
+    margin-left: 14%;
     margin-right: auto;
 }
 .introduction h2 {
 	font-family: 'Hind Vadodara', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	margin-top: -5rem;
-    margin-left: 26%;
+	margin-top: -4.35rem;
+    margin-left: 27.25%;
     margin-right: auto;
     font-size: 2rem;
     text-align: center;
@@ -88,48 +99,67 @@ h1, h2, h3, h4, h5 {
 	height: 33rem;
 	overflow: auto;  
 }
-/*About Me Page*/
-.about > .content {
+/*projects*/
+.projects > .content {
 	padding: 0px 75px;
 	margin:  0 auto;
+}
+.answer1 h3, .answer2 h3, .answer3 h3 {
+	text-align: center;
 }
 .answer1, .answer2, .answer3 {
 	width: 31.3%;
 	float: left;
-	margin: 4% auto;
+	margin: -1% auto;
 }
 .answer3 {
 	margin-right: 0%;
+	margin-left: 1%
+}
+.answer2 {
+	margin-right: 0%;
+	margin-left: 1%
 }
 .answer1 {
-	margin-left: 3%;
+	margin-left: 2%;
 }
 .answer1, .answer2, .answer3 {
 	text-align: left;
 }
+.answer1, .answer2, .answer3 figure img, {
+	width: 300px;
+	height: 280px;
+}
+figure {
+	display: inline-block;
+	height: 170px;
+	margin: 0px;
+	padding: 9px;
+	text-align: left;
+}
+figure img {
+	width: 300px;
+	height: 200px;
+}
+figcaption {
+	padding-left: 20px;
+}
 
-/*projects*/
-.projects {
+
+/*about me */
+.about {
 	background-color: #fff;
 	overflow: hidden;
 	padding-bottom: 5rem;
 }
-.project .content {
-	margin-top: 7.875rem;
-	padding: none;
-	color: #1d1e21;
-	text-align: center;
+.info {
+  	margin: -1% 2%;
 }
-.projects h2 {
-	font-size: 2.75rem;
-	margin: 1.625rem 0 3.125rem;
-	font-weight: 300;
+.info p {
+	text-align: left;
 }
-.shots1, .shots2 {
-	margin: 10% auto;
-	width: 49%;
-	display: inline-block;
-}
+
+
 /*Footer*/
 .footer {
 	background: #fff;
