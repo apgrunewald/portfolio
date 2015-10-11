@@ -24,59 +24,82 @@ body {
 div {
   border: 1px solid Purple;
 }
-#nav, #feature, #footer {
+#feature, #footer, #projects {
+  background-color: #efefef;
+  margin-top: 20px;
+  padding: 5px 0px 10px 0px;
+}
+#nav {
   background-color: #efefef;
   margin-top: 20px;
   padding: 10px 0px 5px 0px;
+  height: 50px;
+}
+#projects, .article {
+  background-color: #efefef;
+  padding: 10px 0px 25px 0px;
 }
 .article {
   display: inline-block;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
   width: 32.3%;
   height: 440px;
 }
 
 li {
   display: inline-block;
-  padding: 5px;
+  padding: 0px 5px;
+}
+#nav li:hover{
+  cursor: pointer;
+  color: #fff;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Homemade Apple', cursive;
   -webkit-font-smoothing: antialiased;
   color: #7F7F6E; 
 }
-/* header */
-#header {
-  background-image: url('../images/springfence.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16rem;
-  overflow: auto;  
+h2 {
+  text-align: left;
+  padding-left: 20px;
 }
+a {
+  text-decoration: none;
+}
+/* header */
 #header h1 {
   color: whitesmoke;
   font-size: 2rem;
   font-family: 'Homemade Apple', cursive;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  margin: 20px auto 0px auto;
+  margin: 100px auto 0px auto;
 }
-#header h2 {
-  font-family: 'Hind Vadodara', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  color: whitesmoke;
-  margin: 0 auto;
-  font-size: 2rem;
+#header {
+  background-image: url('../images/springfence.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  overflow: auto;  
 }
 /*about me*/
 #feature {
   height: 150px;
 }
+#feature p {
+  margin-top: -20px;
+  text-align: left;
+  padding-left: 10px;
+}
 /*projects*/
+#projects {
+  height: 50px;
+}
 .article p {
   text-align: center;
   margin-top: 60px;
+  padding: 7px;
 }
 figure {
   height: 170px;
@@ -84,6 +107,7 @@ figure {
   padding: 9px;
 }
 figure img {
+  border-radius: 6.25rem;
   width: 300px;
   height: 200px;
   border-style: solid;
@@ -91,6 +115,10 @@ figure img {
 }
 figcaption {
   padding: 0px auto;
+}
+/*footer*/
+#footer {
+  height: 100px;
 }
 
 /* `Container
