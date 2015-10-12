@@ -12,9 +12,15 @@
 
   Note: IE6 works fine without this fix.
 */
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   min-width: 960px;
+  background-color: #d4d0c6;
 }
 * {
   font-family: Arial, Verdana, sans-serif;
@@ -24,20 +30,19 @@ body {
 div {
   border: 1px solid Purple;
 }
-#feature, #footer, #projects {
-  background-color: #efefef;
-  margin-top: 20px;
-  padding: 5px 0px 10px 0px;
+#feature, #projects {
+  margin: 20px auto 20px auto;
 }
-#nav {
-  background-color: #efefef;
+#nav, #footer {
+  background-color: #fff;
   margin-top: 20px;
   padding: 10px 0px 5px 0px;
-  height: 50px;
+  height: 60px;
+  width: 100%;
 }
-#projects, .article {
-  background-color: #efefef;
-  padding: 10px 0px 25px 0px;
+.article {
+  background-color: #fff;
+  margin-top: 0px;
 }
 .article {
   display: inline-block;
@@ -46,9 +51,11 @@ div {
   height: 440px;
 }
 
-li {
+ul li {
   display: inline-block;
-  padding: 0px 5px;
+  padding: inherit;
+  color: white;
+  text-align: center;
 }
 #nav li:hover{
   cursor: pointer;
@@ -66,6 +73,9 @@ h2 {
 a {
   text-decoration: none;
 }
+p {
+  line-height: 1.5em;
+}
 /* header */
 #header h1 {
   color: whitesmoke;
@@ -82,10 +92,11 @@ a {
   background-size: cover;
   height: 300px;
   overflow: auto;  
+  max-width: 100%;
 }
 /*about me*/
 #feature {
-  height: 150px;
+  height: 250px;
 }
 #feature p {
   margin-top: -20px;
@@ -94,7 +105,7 @@ a {
 }
 /*projects*/
 #projects {
-  height: 50px;
+  height: 80px;
 }
 .article p {
   text-align: center;
@@ -107,7 +118,6 @@ figure {
   padding: 9px;
 }
 figure img {
-  border-radius: 6.25rem;
   width: 300px;
   height: 200px;
   border-style: solid;
@@ -117,8 +127,38 @@ figcaption {
   padding: 0px auto;
 }
 /*footer*/
-#footer {
-  height: 100px;
+#footer h4 {
+  margin: 0px auto;
+}
+/*Media */
+@media only screen and (max-width: 580px) {
+  body {
+    min-width: 580px;
+  }
+  .container_12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    max-width: 580px;
+  }
+  #header, #nav, #projects, #feature, #footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    max-width: 580px;
+    overflow: hidden;
+  }
+  .article {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px auto;
+    max-width: 580px;
+    overflow: hidden;
+  }
+  h2 {
+  text-align: center;
+  margin-top: 0;
+  }
 }
 
 /* `Container
@@ -146,9 +186,6 @@ figcaption {
 .grid_11,
 .grid_12 {
   display: inline;
-  float: right;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .push_1, .pull_1,
