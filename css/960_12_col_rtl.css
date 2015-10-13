@@ -20,51 +20,20 @@ html {
 }
 body {
   min-width: 960px;
-  background-color: #d4d0c6;
+  background-color: #E3E3E3;
 }
 * {
-  font-family: Arial, Verdana, sans-serif;
-  color: #665544;
+ font-family: 'Hind Vadodara', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  color: #3B3A36;
   text-align: center;
 }
 div {
   border: 1px solid Purple;
 }
-#feature, #projects {
-  margin: 20px 10px;
-}
-#nav, #footer {
-  background-color: #fff;
-  margin-top: 20px;
-  padding: 10px 0px 5px 0px;
-  height: 60px;
-  width: 100%;
-}
-.article {
-  background-color: #fff;
-  margin-top: 0px;
-}
-.article {
-  display: inline-block;
-  padding: 0px 0px 10px 0px;
-  width: 32.3%;
-  height: 440px;
-}
-
-ul li {
-  display: inline-block;
-  padding: inherit;
-  color: white;
-  text-align: center;
-}
-#nav li:hover{
-  cursor: pointer;
-  color: #fff;
-}
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   font-family: 'Homemade Apple', cursive;
   -webkit-font-smoothing: antialiased;
-  color: #7F7F6E; 
 }
 h2 {
   text-align: left;
@@ -76,36 +45,61 @@ a {
 p {
   line-height: 1.5em;
 }
-/* header */
-#header h1 {
-  color: whitesmoke;
-  font-size: 2rem;
-  font-family: 'Homemade Apple', cursive;
-  -webkit-font-smoothing: antialiased;
+/*nav*/
+#nav li:hover{
+  cursor: pointer;
+  color: #fff;
+}
+#nav {
+  background-color: #E3E3E3;
+  height: 60px;
+  width: 100%;
+}
+
+#nav ul li {
+  display: inline-block;
+  color: white;
   text-align: center;
-  margin: 100px auto 0px auto;
+  float: left;
+  margin-right: 25px;
+
+}
+/* Index  */
+#header p {
+  color: #3B3A36;
+  font-size: 3rem;
+  text-align: center;
+  margin: 100px 45px;
 }
 #header {
-  background-image: url('../images/springfence.jpg');
+  background-image: url('../images/phone.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 446px;
   overflow: auto;  
-  max-width: 100%;
+  width: 100%;
 }
 /*about me*/
 #feature {
-  height: 250px;
+  height: 570px;
 }
 #feature p {
-  margin-top: -20px;
+  margin-top: 10px;
   text-align: left;
   padding-left: 10px;
 }
+#feature .pics {
+  height: 300px;
+}
+
 /*projects*/
+.article {
+  display: inline-block;
+  padding: 0px 0px 10px 0px;
+  width: 32.3%;
+}
 #projects {
-  height: 80px;
   width: 100%;
 }
 .article p {
@@ -128,6 +122,19 @@ figcaption {
   padding: 0px auto;
 }
 /*footer*/
+#footer ul li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  float: center;
+  margin-right: 25px;
+}
+
+#footer {
+  background-color: #E3E3E3;
+  height: 80px;
+  width: 100%;
+}
 #footer h4 {
   margin: 0px auto;
 }
@@ -188,7 +195,6 @@ figcaption {
 .grid_12 {
   display: inline;
   float: right;
-  margin-right: 10px;
   margin-left: 10px;
 }
 
