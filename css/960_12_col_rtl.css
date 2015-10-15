@@ -28,9 +28,7 @@ body {
   color: #3B3A36;
   text-align: center;
 }
-div {
-  border: 1px solid Purple;
-}
+
 h1, h2, h3, h4 {
   font-family: 'Homemade Apple', cursive;
   -webkit-font-smoothing: antialiased;
@@ -92,6 +90,9 @@ p {
 #feature .pics {
   height: 300px;
 }
+#feature a {
+  text-decoration: underline;
+}
 
 /*projects*/
 .article {
@@ -101,6 +102,9 @@ p {
 }
 #projects {
   width: 100%;
+}
+#projects a {
+  text-decoration: underline; 
 }
 .article p {
   text-align: center;
@@ -159,14 +163,19 @@ figcaption {
   .article {
     box-sizing: border-box;
     width: 100%;
-    padding: 0px auto;
+    padding: 15px auto;
     max-width: 580px;
+    margin-top: 10px;
     overflow: hidden;
   }
   h2 {
   text-align: center;
   margin-top: 0;
   }
+  #feature .pics {
+  height: 300px;
+  display: none;
+}
 }
 
 /* `Container
